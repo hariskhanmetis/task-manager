@@ -87,6 +87,16 @@ li {
     justify-content: space-between;
     align-items: center;
     transition: 0.3s;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+span {
+    max-width: 70%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 li:hover {
